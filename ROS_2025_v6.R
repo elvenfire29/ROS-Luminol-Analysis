@@ -1,4 +1,4 @@
-#Version 2025. September 04.
+#Version 2025. October 31.
 #ROS (Luminol) Assay Analysis:
 #Averages per time point, Sums of Treatments for all Time Points, ANOVA comparing Sums
 
@@ -1179,7 +1179,7 @@ if (lim !=0){
       data6<-c()
 
       #get data into the same space and differentiate it
-    if(length(control20)==length(temp2)){
+    if(length(control20)==length(temp20)){
       data6<-rbind(control20,temp20)
       data6<-t(data6)
       colnames(data6)<-c("Sample1","Sample2")
@@ -1599,3 +1599,4 @@ if (lim !=0){
 ###################################################
 #########End of code###############################
 ###################################################
+
